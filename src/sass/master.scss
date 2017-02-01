@@ -1,0 +1,14 @@
+$color-primary: green;
+$color-yellow: yellow;
+$color-primary-light: lightgreen;
+$color-primary-dark: darkgreen;
+
+.card {
+  background-color: $color-yellow;
+  &__information {
+    width: 100%;
+    background-color: $color-primary-dark;
+  }
+}
+
+@import "bootstrap-mod";
